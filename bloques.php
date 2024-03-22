@@ -28,7 +28,15 @@ switch ($opcionEscogida) {
 
 // FOR 
 for ($i=1; $i < 6; $i++) { 
-    echo $i
+    echo $i;
+}
+
+// FOREACH
+$numeros = [1,2,3,4,5];
+
+foreach ($numeros as $indice => $valor) {
+     echo "{$indice} => {$valor}";
+     echo "<br>";
 }
 
 // RESULTADO: 12345
