@@ -1,5 +1,6 @@
 <?php
 
+/*
 // Asignacion
 $num = 9;
 $lang = [
@@ -29,3 +30,7 @@ $name = 'platzi';
 
 echo $app; // Print name
 echo $$app; // Print platzi
+*/
+require __DIR__ . '/vendor/autoload.php';
+
+echo Text\Format::upperText('hola');
